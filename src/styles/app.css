@@ -1,0 +1,97 @@
+.main-page {
+	width: 400px;
+	margin: 20px auto;
+}
+
+.main-page__title {
+	text-align: center;
+}
+
+.search-panel {
+	width: 400px;
+	margin: 40px auto 20px;
+	padding-bottom: 20px;
+}
+
+.search-result {
+	width: 600px;
+	margin: 40px auto;
+}
+
+.search-result td {
+	padding: 4px 8px;
+	border: 1px solid #ccc;
+}
+
+.search-result table {
+	border-collapse: collapse;
+}
+
+.search-form {
+	display: block;
+	min-width: 380px;
+	width: 80%;
+	margin: 20px 0;
+}
+
+.search-form__label {
+	display: inline-block;
+	width: 190px;
+}
+
+.search-form .search-form__input {
+	display: inline-block;
+	width: 180px;
+	padding: 4px;
+	margin: 10px 0;
+	border-radius: 2px;
+	border: 1px solid #aeaeae;
+}
+
+.search-form .search-form__input.search-form__input_error {
+	border: 1px solid #EC644B;
+}
+
+.search-form .search-form__datepicker {
+	display: inline-block;
+	width: 180px;
+	padding: 4px;
+	margin: 10px 0;
+	border-radius: 2px;
+	border: 1px solid #aeaeae;
+}
+
+.search-form .search-form__button {
+	display: inline-block;
+	padding: 4px 36px;
+	margin: 10px 0 10px 10px;
+	border-radius: 2px;
+	border: 1px solid #59ABE3;
+	background: #3498DB;
+	cursor: pointer;
+}
+.search-form .search-form__button:hover{
+	transition: all .2s;
+	background: #59ABE3;
+}
+
+.search-form .search-form__button.search-form__button_block {
+	display: block;
+	width: 100%;
+	margin: 10px 0;
+}
+
+.author {
+	text-align: right;
+	color: #bbb;
+}
+
+.hr.hr_light {
+	display: block;
+	border: none;
+	color: white;
+	width: 80%;
+	margin: 4px auto;
+	height: 6px;
+	box-shadow: 0 3px 3px -1px #ccc;
+}
